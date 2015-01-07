@@ -1,0 +1,189 @@
+* {
+
+}
+html {
+	font-size: 10px;
+}
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	color: #333333;
+	overflow-x: hidden;
+	background-color: #f7f7f7;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.95);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+#header{
+	position: relative;
+	width: auto;
+	height: 10%;
+	margin: 50px 120px;
+	font-family: Raleway;
+	font-size: 18px;
+	text-transform: uppercase;
+	min-width:250px;
+	color: #1F2021;
+}
+
+#h-avatar{
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("../images/me.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#h-body{
+	width: 60%;
+	height: 100%;
+	margin-left:100px;
+	padding:5px;
+}
+
+#h-name{
+	height: 20px;
+	min-width:250px;
+	padding-left: 5px;
+	padding-top:15px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	/*
+	font-family: museo_slab;
+	font-size: 2.5em;
+	color: #333;
+	line-height: 1.4em;
+	letter-spacing: -1px;
+	margin-bottom: 0.5em; */
+}
+
+#h-social{
+}
+
+#h-links{
+	width: 300px;
+	height: 100px;
+	float: right;
+	position:absolute;
+	top: 0px;
+	right:0px;
+	padding:5px;
+}
+
+#data {
+	width: auto;
+	height: 45%;
+	padding: 200px 120px;
+}
+
+
+#title  h1{
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #1F2021;
+	letter-spacing: 2px;
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "Abel";
+}
+
+#text {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 34px;
+	font-family: Raleway;
+	margin-top: 30px;
+}
+
+#social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #fff;
+	display: inline-block;
+	height: 24px;
+}
+#social li {
+display: inline-block;
+	padding: 0;
+	margin: 0;
+    height: 36px;
+    width: 36px;
+	list-style: none;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#social li a, #social li a:visited {
+	display: inline-block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 36px;
+	width: 36px;
+	background-repeat: no-repeat;
+	background-size: 36px 36px;
+}
+
+#facebook a {background-image: url(../images/facebook-circle-black.png);}
+#facebook a:hover {background-image: url(../images/facebook-circle-color.png);}
+
+#github a {background-image: url(../images/github-circle-black.png);}
+#github a:hover {background-image: url(../images/github-circle-color.png);}
+
+#google a {background-image: url(../images/google-plus-circle-black.png);}
+#google a:hover {background-image: url(../images/google-plus-circle-color.png);}
+
+#linkedin a {background-image: url(../images/linkedin-circle-black.png);}
+#linkedin a:hover {background-image: url(../images/linkedin-circle-color.png);}
+
+#skype a {background-image: url(../images/skype-circle-black.png);}
+#skype a:hover {background-image: url(../images/skype-circle-color.png);}
+
+#twitter a {background-image: url(../images/twitter-circle-black.png);}
+#twitter a:hover {background-image: url(../images/twitter-circle-color.png);}
+
+#footer{
+    height 20%;
+    padding: 50px 120px;
+    color: #9a9a9a;
+    font-family: Raleway;
+    text-align: center;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(../fonts/raleway.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local("Abel-Regular"), url(../fonts/abel.woff) format('woff');
+}
+
